@@ -1,0 +1,15 @@
+.btn{
+   background-color: lime !important; 
+   color: black !important;
+   border: 2px solid lime !important;
+   font-weight: bold !important;
+}
+.containers{
+display: flex !important;
+gap: 20px !important;
+}
+.cards{
+    box-shadow: 5px 5px 8px black !important;
+    padding: 20px !important;
+    border-radius: 10px !important;
+}
