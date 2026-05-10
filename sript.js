@@ -1,5 +1,7 @@
-const btn = document.querySelector('.btn-primary');
-btn.addEventListener('click', () => {
-    gtag('event', 'order_button_clicked');
-    console.log('дани видправлено!');
+const playBtn = document.getElementById('play-btn');
+
+playBtn.addEventListener('click', () => {
+    gtag('event', 'click_play_button');
+    
+    console.log('Button clicked');
 });
